@@ -13,6 +13,6 @@ Step by step :
 
     - Channel : DemoChannel
     - Event : App\Events\WebSocket
-    - Data : {"test":1}
+    - Data : {"data":"yuhuu"}
 
 - Teekan tombol Send Event

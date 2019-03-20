@@ -55,3 +55,11 @@ window.Echo = new Echo({
     wsPort: 6001,
     disableStats: true,
 });
+
+window.Vue = require('vue');
+
+window.events = new Vue();
+
+window.showNotification = function(message, type = 'alert-primary') {
+    window.events.$emit('showNotification', message, type);
+}
